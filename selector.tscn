@@ -1,0 +1,43 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Helios_down_button.png" type="Texture" id=1]
+[ext_resource path="res://placeholder_lead_plating.png" type="Texture" id=2]
+[ext_resource path="res://Helios_up_button.png" type="Texture" id=3]
+
+[node name="selector" type="Control"]
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 2
+size_flags_vertical = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="plating_button_down" type="TextureButton" parent="."]
+margin_right = 150.0
+margin_bottom = 100.0
+texture_normal = ExtResource( 3 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_top = 100.0
+margin_right = 150.0
+margin_bottom = 250.0
+texture = ExtResource( 2 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="plating_button_down2" type="TextureButton" parent="."]
+margin_top = 250.0
+margin_right = 150.0
+margin_bottom = 350.0
+texture_normal = ExtResource( 1 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
