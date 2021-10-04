@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://expand_arrow.png" type="Texture" id=1]
+[ext_resource path="res://TextureButton.gd" type="Script" id=2]
 
 [node name="Panel" type="Panel"]
 margin_top = -1.0
@@ -26,7 +27,6 @@ size_flags_vertical = 3
 size_flags_stretch_ratio = 0.0
 custom_colors/default_color = Color( 0.654902, 0.654902, 0.654902, 1 )
 custom_colors/selection_color = Color( 0.654902, 0.654902, 0.654902, 1 )
-text = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -38,6 +38,7 @@ margin_bottom = 40.0
 rect_min_size = Vector2( 40, 40 )
 texture_normal = ExtResource( 1 )
 expand = true
+script = ExtResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
